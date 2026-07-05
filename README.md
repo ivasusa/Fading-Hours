@@ -11,7 +11,6 @@ Every conversation matters. Different choices reveal different fragments of the 
 **Genre:** 2D Narrative / Adventure  
 **Engine:** Godot 4  
 **Platform:** PC  
-**Developer:** Iva Šuša  
 **Made for:** Develop at Ubisoft — Programming Track (2025/2026)
 
 ---
@@ -67,19 +66,9 @@ Built with guidance from my mentor at Ubisoft as part of the **Develop at Ubisof
 
 ---
 
-## What I'd Build Next
-
-- Richer NPC memory — characters that remember past interactions
-- Expanded village map with interior spaces and new characters
-- Original ambient soundtrack tied to story progression
-- More endings and branching paths
-
----
-
 ## Credits
 
 - **Developer:** Iva Šuša
-- **Mentor:** Ivana (Ubisoft)
 - **Program:** [Develop at Ubisoft](https://www.ubisoft.com/en-us/company/careers/develop-at-ubisoft)
 - **Assets:** Sprout Lands asset pack (Cup Nooble), Farming Tilesheet (various free assets from itch.io)
 - **Engine:** [Godot Engine 4](https://godotengine.org/)
