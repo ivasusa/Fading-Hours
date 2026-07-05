@@ -17,7 +17,7 @@ Every conversation matters. Different choices reveal different fragments of the 
 
 ## Story
 
-Ana is old, and her memories are slipping. You've come to stay with her and help around the house. But as you explore the village, you start to realize she was once someone remarkable — and the village itself holds the proof.
+Ana is old, and her memories are slipping. You've come to stay with her and help around the house. But as you explore the village, you start to realize she was once someone remarkable, and the village itself holds the proof.
 
 Bring her the right things. Talk to the right people. And maybe she'll remember.
 
