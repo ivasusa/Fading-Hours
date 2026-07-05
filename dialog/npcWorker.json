@@ -1,0 +1,14 @@
+[
+  {"name":"Fisherman","text":"Hey. You're staying with old Ana, right?"},
+  {"name":"You","text":"Yeah. Just arrived."},
+  {"name":"Fisherman","text":"How is she?"},
+  {"name":"You","text":"She seems... lost sometimes."},
+  {"name":"Fisherman","text":"My grandad used to say she knew this village better than anyone alive."},
+  {"name":"Fisherman","text":"Said she built half of it with her own hands."},
+  {"name":"You","text":"Really?"},
+  {"name":"Fisherman","text":"He never lied about things like that."},
+  {"name":"You","text":"Do you have any fish? I think she'd like that."},
+  {"name":"Fisherman","text":"For Ana? Always."},
+  {"name":"Fisherman","text":"Tell her Perica's grandson says hello."},
+  {"name":"Fisherman","text":"Stay and talk a while? I don't get many visitors. [Press T to talk and stay, Enter to leave]"}
+]

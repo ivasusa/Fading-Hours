@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://wsm62ih38jpt"]
+
+[ext_resource type="Texture2D" uid="uid://dflmmur12itwn" path="res://art/inventory-background.png" id="1_7voku"]
+[ext_resource type="Script" uid="uid://d2dypb5ng8iek" path="res://dialog/dialog.gd" id="1_wddsb"]
+
+[node name="Dialog" type="Control" unique_id=630809144]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_wddsb")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="." unique_id=500878613]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 20.0
+offset_right = 159.0
+offset_bottom = 78.0
+texture = ExtResource("1_7voku")
+patch_margin_left = 3
+patch_margin_top = 3
+patch_margin_right = 3
+patch_margin_bottom = 3
+
+[node name="Name" type="RichTextLabel" parent="NinePatchRect" unique_id=1805305515]
+layout_mode = 0
+offset_left = 4.0
+offset_right = 102.0
+offset_bottom = 32.0
+scale = Vector2(0.5, 0.5)
+
+[node name="Text" type="RichTextLabel" parent="NinePatchRect" unique_id=120636353]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 10.0
+offset_right = 197.0
+offset_bottom = 76.666664
+scale = Vector2(0.6, 0.6)

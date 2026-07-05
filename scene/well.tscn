@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://bun35keqgqgo3"]
+
+[ext_resource type="Script" uid="uid://cge0u0tb27qo" path="res://script/well.gd" id="1_7ftsu"]
+[ext_resource type="Texture2D" uid="uid://byt56cmkirivl" path="res://art/tilemap.png" id="2_hmora"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_po7mb"]
+atlas = ExtResource("2_hmora")
+region = Rect2(187, 171, 16, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jq830"]
+atlas = ExtResource("2_hmora")
+region = Rect2(171, 171, 16, 14)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ifdyr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_po7mb")
+}],
+"loop": true,
+"name": &"well",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jq830")
+}],
+"loop": true,
+"name": &"well_empty",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2aenc"]
+
+[node name="well" type="Node2D" unique_id=716573590]
+script = ExtResource("1_7ftsu")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=506491055]
+sprite_frames = SubResource("SpriteFrames_ifdyr")
+animation = &"well"
+
+[node name="pickable_area" type="Area2D" parent="." unique_id=1708470158]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pickable_area" unique_id=775954810]
+shape = SubResource("CircleShape2D_2aenc")
+
+[node name="growthTimer" type="Timer" parent="." unique_id=1016879560]
+wait_time = 3.0
+one_shot = true
+
+[node name="Marker2D" type="Marker2D" parent="." unique_id=1771162031]
+
+[connection signal="body_entered" from="pickable_area" to="." method="_on_pickable_area_body_entered"]
+[connection signal="body_exited" from="pickable_area" to="." method="_on_pickable_area_body_exited"]
+[connection signal="timeout" from="growthTimer" to="." method="_on_growth_timer_timeout"]
